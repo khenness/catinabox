@@ -2,8 +2,9 @@ from catinabox import catmath
 
 
 def test__cat_years_to_hooman_years__middle_age__succeeds():
-    assert True
-
+    cat_age = 7
+    hooman_age = catmath.cat_years_to_hooman_years(cat_age)
+    assert hooman_age == 35
 
 def test__cat_years_to_hooman_years__less_than_one_year__succeeds():
     assert True
